@@ -1,0 +1,45 @@
+body{
+    background-image: url('b5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+#main_box{
+    width: 25vw;
+    height: 35vw;
+    margin: 25px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.7) 0px -12px 30px, rgba(0, 0, 0, 0.4) 0px 4px 6px, rgba(0, 0, 0, 0.2) 0px 12px 13px, rgba(0, 0, 0, 0.1) 0px -3px 5px;
+    
+}#signup{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-top: 2px;
+   
+}#signin:hover {
+    border-bottom: 3px solid red;
+    margin-top: 2px;
+ 
+}#form_box{
+    margin-top: 40px;
+}
+#Username{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 22vw;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    
+}::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+    
+}#btn{
+    border-radius: 20px;
+    width: 10vw;
+}a{
+    text-decoration: none;
+    color: black;
+}
